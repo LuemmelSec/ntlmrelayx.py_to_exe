@@ -49,4 +49,8 @@ PROTOCOL_CLIENTS = {"DCSYNC":DCSYNCRelayClient "HTTP":HTTPRelayClient, "HTTPS":H
 ![](image.jpg)
 
 Lastly we can compile the .py to an exe (you need to include the paths to the python packages for impacket and uuid to whereever they are stored on your system):
-``pyinstaller ntlmrelayx.py --onefile --path C:\Python311\Lib\site-packages\impacket,C:\Python311\Lib\site-packages``
+``pyinstaller ntlmrelayx.py --onefile --path C:\Python311\Lib\site-packages\impacket,C:\Python311\Lib\site-packages,C:\Python311\Lib``
+
+As of today, 15.05.2023 interactive LDAPS shell is working, but enumeration e.g. is not. Currently not able to figure out why.  
+
+![](error.jpg)
