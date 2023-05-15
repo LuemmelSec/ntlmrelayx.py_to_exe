@@ -46,5 +46,7 @@ PROTOCOL_ATTACKS = {"HTTP":HTTPAttack, "LDAP":LDAPAttack, "LDAPS":LDAPAttack, "H
 PROTOCOL_CLIENTS = {"DCSYNC":DCSYNCRelayClient "HTTP":HTTPRelayClient, "HTTPS":HTTPSRelayClient, "SMTP":SMTPRelayClient, "LDAP":LDAPRelayClient, "LDAPS":LDAPSRelayClient, "IMAP":IMAPPRelayClient, "IMAPS":IMAPSRelayClient, "SMB":SMBRelayClient, "RPC":RPCRelayClient, "MSSQL":MSSQLPRelayClient}
 ```
 
+![](2023-05-15 19_59_39-Window.jpg)
+
 Lastly we can compile the .py to an exe (you need to include the paths to the python packages for impacket and uuid to whereever they are stored on your system):
 ``pyinstaller ntlmrelayx.py --onefile --path C:\Python311\Lib\site-packages\impacket,C:\Python311\Lib\site-packages``
