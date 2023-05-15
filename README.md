@@ -31,7 +31,7 @@ from impacket.examples.ntlmrelayx.clients.rpcrelayclient import RPCRelayClient
 from impacket.examples.ntlmrelayx.clients.smbrelayclient import SMBRelayClient
 from impacket.examples.ntlmrelayx.clients.smtprelayclient import SMTPRelayClient
 from impacket.examples.ntlmrelayx.clients.mssqlrelayclient import MSSQLRelayClient
-from impacket.examples.ntlmrelayx.clients.imaprelayclient import IMAPPRelayClient,IMAPSRelayClient
+from impacket.examples.ntlmrelayx.clients.imaprelayclient import IMAPRelayClient,IMAPSRelayClient
 from impacket.examples.ntlmrelayx.clients.ldaprelayclient import LDAPRelayClient,LDAPSRelayClient
 from impacket.examples.ntlmrelayx.attacks.httpattack import HTTPAttack
 from impacket.examples.ntlmrelayx.attacks.ldapattack import LDAPAttack
@@ -43,7 +43,7 @@ from impacket.examples.ntlmrelayx.attacks.imapattack import IMAPAttack
 from impacket.examples.ntlmrelayx.attacks.rpcattack import RPCAttack
         
 PROTOCOL_ATTACKS = {"HTTP":HTTPAttack, "LDAP":LDAPAttack, "LDAPS":LDAPAttack, "HTTPS":adcsattack, "DCSYNC":DCSYNCAttack, "SMB": SMBAttack, "MSSQL":MSSQLAttack, "IMAP":IMAPAttack, "IMAPS":IMAPAttack, "RPC":RPCAttack}
-PROTOCOL_CLIENTS = {"DCSYNC":DCSYNCRelayClient, "HTTP":HTTPRelayClient, "HTTPS":HTTPSRelayClient, "SMTP":SMTPRelayClient, "LDAP":LDAPRelayClient, "LDAPS":LDAPSRelayClient, "IMAP":IMAPPRelayClient, "IMAPS":IMAPSRelayClient, "SMB":SMBRelayClient, "RPC":RPCRelayClient, "MSSQL":MSSQLRelayClient}
+PROTOCOL_CLIENTS = {"DCSYNC":DCSYNCRelayClient, "HTTP":HTTPRelayClient, "HTTPS":HTTPSRelayClient, "SMTP":SMTPRelayClient, "LDAP":LDAPRelayClient, "LDAPS":LDAPSRelayClient, "IMAP":IMAPRelayClient, "IMAPS":IMAPSRelayClient, "SMB":SMBRelayClient, "RPC":RPCRelayClient, "MSSQL":MSSQLRelayClient}
 ```
 
 ![](image.jpg)
