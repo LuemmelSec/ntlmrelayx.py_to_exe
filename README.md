@@ -42,7 +42,7 @@ from impacket.examples.ntlmrelayx.attacks.mssqlattack import MSSQLAttack
 from impacket.examples.ntlmrelayx.attacks.imapattack import IMAPAttack
 from impacket.examples.ntlmrelayx.attacks.rpcattack import RPCAttack
         
-PROTOCOL_ATTACKS = {"HTTP":HTTPAttack, "LDAP":LDAPAttack, "LDAPS":LDAPAttack, "HTTPS":adcsattack "DCSYNC":DCSYNCAttack, "SMB": SMBAttack, "MSSQL":MSSQLAttack, "IMAP":IMAPAttack, "IMAPS":IMAPAttack, "RPC":RPCAttack}
+PROTOCOL_ATTACKS = {"HTTP":HTTPAttack, "LDAP":LDAPAttack, "LDAPS":LDAPAttack, "HTTPS":adcsattack, "DCSYNC":DCSYNCAttack, "SMB": SMBAttack, "MSSQL":MSSQLAttack, "IMAP":IMAPAttack, "IMAPS":IMAPAttack, "RPC":RPCAttack}
 PROTOCOL_CLIENTS = {"DCSYNC":DCSYNCRelayClient "HTTP":HTTPRelayClient, "HTTPS":HTTPSRelayClient, "SMTP":SMTPRelayClient, "LDAP":LDAPRelayClient, "LDAPS":LDAPSRelayClient, "IMAP":IMAPPRelayClient, "IMAPS":IMAPSRelayClient, "SMB":SMBRelayClient, "RPC":RPCRelayClient, "MSSQL":MSSQLPRelayClient}
 ```
 
