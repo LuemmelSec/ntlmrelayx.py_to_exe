@@ -30,7 +30,7 @@ from impacket.examples.ntlmrelayx.clients.httprelayclient import HTTPRelayClient
 from impacket.examples.ntlmrelayx.clients.rpcrelayclient import RPCRelayClient
 from impacket.examples.ntlmrelayx.clients.smbrelayclient import SMBRelayClient
 from impacket.examples.ntlmrelayx.clients.smtprelayclient import SMTPRelayClient
-from impacket.examples.ntlmrelayx.clients.mssqlrelayclient import MSSQLPRelayClient
+from impacket.examples.ntlmrelayx.clients.mssqlrelayclient import MSSQLRelayClient
 from impacket.examples.ntlmrelayx.clients.imaprelayclient import IMAPPRelayClient,IMAPSRelayClient
 from impacket.examples.ntlmrelayx.clients.ldaprelayclient import LDAPRelayClient,LDAPSRelayClient
 from impacket.examples.ntlmrelayx.attacks.httpattack import HTTPAttack
