@@ -90,4 +90,4 @@ Reboot
 
 Currently not working / problems / resolved:  
 - [x] As of today, 15.05.2023 interactive LDAPS shell is working, but enumeration e.g. is not. Currently not able to figure out why.  
-- [ ] Socks option  
+- [ ] Socks option currently not working  
