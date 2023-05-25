@@ -18,6 +18,7 @@ My setup is running on a Commando VM on a Windows 10 box with newest Python 3.11
   
 ## Build steps
 You have to tamper the original ntlmrelayx.py (included in this repo as ntlmrelayx_original.py) in order for it to work.
+The ntlmrelayx.py in this repo is the already prepared version.  
 The changes are:
 
 ### After line 55
@@ -89,5 +90,5 @@ Reboot
 ## Updates  
 
 Currently not working / problems / resolved:  
-- [x] As of today, 15.05.2023 interactive LDAPS shell is working, but enumeration e.g. is not. Currently not able to figure out why.  
+- [x] ~ As of today, 15.05.2023 interactive LDAPS shell is working, but enumeration e.g. is not. Currently not able to figure out why. ~ 
 - [ ] Socks option currently not working  
