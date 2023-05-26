@@ -58,7 +58,7 @@ RELAY_SERVERS = []
 ```
 ![](image1.jpg)  
 
-Lastly we can compile the .py to an exe (you need to include the paths to the python packages for impacket and uuid to whereever they are stored on your system):  
+Lastly we can compile the .py to an exe (you need to include the paths to the python packages for impacket and uuid to wherever they are stored on your system):  
 ```
 pyinstaller ntlmrelayx.py --onefile --path C:\Python311\Lib\site-packages\impacket,C:\Python311\Lib\site-packages,C:\Python311\Lib
 ```
